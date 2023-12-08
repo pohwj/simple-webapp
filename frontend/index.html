@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div id="workEntryForm">
+        <h2>Enter Child's Work</h2>
+        <label for="childName">Child's Name:</label>
+        <input type="text" id="childName" name="childName">
+        
+        <label>Work Description:</label>
+        <div>
+            <input type="checkbox" id="cleanRoom" name="workDescription" value="clean room">
+            <label for="cleanRoom">Clean Room</label>
+        </div>
+        <div>
+            <input type="checkbox" id="foldClothes" name="workDescription" value="fold clothes">
+            <label for="foldClothes">Fold Clothes</label>
+        </div>
+        <div>
+            <input type="checkbox" id="waterPlants" name="workDescription" value="water plants">
+            <label for="waterPlants">Water Plants</label>
+        </div>
+        <div>
+            <input type="checkbox" id="groceryShopping" name="workDescription" value="grocery shopping">
+            <label for="groceryShopping">Grocery Shopping</label>
+        </div>
+        <div>
+            <input type="checkbox" id="recycling" name="workDescription" value="recycling">
+            <label for="recycling">Recycling</label>
+        </div>
+        <div>
+            <input type="checkbox" id="financeBudgeting" name="workDescription" value="finance budgeting">
+            <label for="financeBudgeting">Finance Budgeting</label>
+        </div>
+        <div>
+            <input type="checkbox" id="throwWaste" name="workDescription" value="throw waste">
+            <label for="throwWaste">Throw Waste</label>
+        </div>
+        <!-- Add more checkboxes for other tasks as needed -->
+
+        <button onclick="enterWork()">Enter Work</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
