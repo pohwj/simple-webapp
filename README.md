@@ -13,3 +13,5 @@ S3 Bucket: Objects in bucket are not made public
 Dynamo DB table : A combination of Partition key (String) and Sort Key (Number) are used for childname and timestamp since multiple entries for the same child can be made.
 
 AWS Lambda: Function URL is used and set CORS to accept request from origin of Cloudfront URL
+
+Website: https://d3xrh9n1xgpy9.cloudfront.net/
